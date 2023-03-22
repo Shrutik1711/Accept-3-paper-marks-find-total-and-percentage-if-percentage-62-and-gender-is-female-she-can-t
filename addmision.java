@@ -6,7 +6,7 @@ public class Admission {
         
         Scanner input = new Scanner(System.in);
         
-        // Accepting paper marks
+        
         System.out.print("Enter marks for paper 1: ");
         int paper1 = input.nextInt();
         
@@ -16,11 +16,11 @@ public class Admission {
         System.out.print("Enter marks for paper 3: ");
         int paper3 = input.nextInt();
         
-        // Calculating total marks and percentage
+        
         int totalMarks = paper1 + paper2 + paper3;
         double percentage = (totalMarks / 3.0);
         
-        // Checking eligibility for admission
+        
         System.out.print("Enter gender (M/F): ");
         String gender = input.next();
         
